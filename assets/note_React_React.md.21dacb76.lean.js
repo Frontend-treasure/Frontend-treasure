@@ -1,0 +1,1 @@
+import{_ as l,o as s,c as o,a}from"./app.3f0963f8.js";const d=JSON.parse('{"title":"React \u9762\u8BD5\u9898","description":"","frontmatter":{},"headers":[],"relativePath":"note/React/React.md"}'),n={name:"note/React/React.md"},p=a("",60),e=[p];function t(c,i,r,F,D,y){return s(),o("div",null,e)}const C=l(n,[["render",t]]);export{d as __pageData,C as default};
