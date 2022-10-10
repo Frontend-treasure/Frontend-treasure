@@ -33,7 +33,11 @@ const Sidebar = [
     text: "JavaScript",
     collapsible: true,
     collapsed: true,
-    items: [{ text: "JavaScript面试题", link: "/note/JavaScript/JavaScript" }],
+    items: [
+      { text: "JavaScript学习小册", link: "/note/JavaScript/learn" },
+      { text: "JavaScript面试题", link: "/note/JavaScript/JavaScript" },
+      { text: "JavaScript手撕代码", link: "/note/JavaScript/handwrite" },
+    ],
   },
   {
     text: "TypeScript",
