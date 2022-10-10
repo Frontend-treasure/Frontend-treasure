@@ -18,7 +18,7 @@ const navbar = [
     items: [
       { text: "注意事项", link: "/interview/Note" },
       { text: "简历编写", link: "/interview/Resume" },
-      { text: "前端八股文", link: "/interview/Java" },
+      // { text: "前端八股文", link: "/interview/Frontend" },
       { text: "<<剑指offer>>", link: "/interview/Leetcode" },
       { text: "互联网公司大全", link: "/interview/Compony" },
     ],

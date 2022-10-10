@@ -34,6 +34,7 @@ const Sidebar = [
     collapsible: true,
     collapsed: true,
     items: [
+      { text: "JavaScript学前准备", link: "/note/JavaScript/prepare" },
       { text: "JavaScript学习小册", link: "/note/JavaScript/learn" },
       { text: "JavaScript面试题", link: "/note/JavaScript/JavaScript" },
       { text: "JavaScript手撕代码", link: "/note/JavaScript/handwrite" },
@@ -43,19 +44,35 @@ const Sidebar = [
     text: "TypeScript",
     collapsible: true,
     collapsed: true,
-    items: [{ text: "TS类型体操", link: "/note/TypeScript/TS类型体操" }],
+    items: [
+      { text: "TypeScript学前准备", link: "/note/TypeScript/prepare" },
+      { text: "TypeScript学习小册", link: "/note/TypeScript/learn" },
+      { text: "TypeScript面试题", link: "/note/TypeScript/TypeScript" },
+      { text: "TypeScript手撕代码", link: "/note/TypeScript/handwrite" },
+      { text: "TS类型体操", link: "/note/TypeScript/TS类型体操" },
+  ],
   },
   {
     text: "Vue",
     collapsible: true,
     collapsed: true,
-    items: [{ text: "Vue面试题", link: "/note/Vue/Vue" }],
+    items: [
+      { text: "Vue学前准备", link: "/note/Vue/prepare" },
+      { text: "Vue学习小册", link: "/note/Vue/learn" },
+      { text: "Vue面试题", link: "/note/Vue/Vue" },
+      { text: "Vue手撕代码", link: "/note/Vue/handwrite" },
+    ],
   },
   {
     text: "React",
     collapsible: true,
     collapsed: true,
-    items: [{ text: "React面试题", link: "/note/React/React" }],
+    items: [
+    { text: "React学前准备", link: "/note/React/prepare" },
+    { text: "React学习小册", link: "/note/React/learn" },
+    { text: "React面试题", link: "/note/React/React" },
+    { text: "React手撕代码", link: "/note/React/handwrite" },
+  ],
   },
   {
     text: "Vite",
@@ -68,8 +85,8 @@ const Sidebar = [
     collapsible: true,
     collapsed: true,
     items: [
-      { text: "Git-Commit规范", link: "/note/Git/常用命令大全" },
-      { text: "Git常用命令", link: "/note/Git/常用命令大全" },
+      { text: "Git-Commit规范", link: "/note/Git/Commit" },
+      { text: "Git常用命令", link: "/note/Git/Git" },
     ],
   },
   {
@@ -82,7 +99,12 @@ const Sidebar = [
     text: "Nest.js",
     collapsible: true,
     collapsed: true,
-    items: [{ text: "Nest.js使用和介绍", link: "/note/Nest/Nest" }],
+    items: [
+      { text: "Nest学前准备", link: "/note/Nestjs/prepare" },
+      { text: "Nest学习小册", link: "/note/Nestjs/learn" },
+      { text: "Nest面试题", link: "/note/Nestjs/Nestjs" },
+      { text: "Nest手撕代码", link: "/note/Nestjs/handwrite" },
+    ],
   },
   // {
   //   text: "Docker",
