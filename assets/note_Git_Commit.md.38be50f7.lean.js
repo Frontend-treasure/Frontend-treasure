@@ -1,1 +1,0 @@
-import{_ as t,o as e,c as o}from"./app.f8437a7f.js";const d=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"note/Git/Commit.md"}'),a={name:"note/Git/Commit.md"};function r(n,s,c,i,m,p){return e(),o("div")}const f=t(a,[["render",r]]);export{d as __pageData,f as default};

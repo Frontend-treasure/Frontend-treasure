@@ -1,0 +1,1 @@
+import{_ as e,o,c as t}from"./app.bd7dc5ce.js";const l=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"resource/Tools.md"}'),r={name:"resource/Tools.md"};function s(a,c,n,p,_,d){return o(),t("div")}const m=e(r,[["render",s]]);export{l as __pageData,m as default};
