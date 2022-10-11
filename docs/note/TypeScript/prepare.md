@@ -3,19 +3,19 @@
 ...待补充
 
 ## 文档推荐
--  MDN
--  JavaScript.info
-  
 
- ## 书籍推荐
-- 你不知道的 JavaScript
-- JavaScript 百炼成仙
-- JavaScript 高级程序设计
-- JavaScript 数据结构与算法
+- [TypeScript 官方文档](https://www.typescriptlang.org/)
+- [TypeScript 手册](https://www.typescriptlang.org/docs/handbook/basic-types.html)
+- [TypeScript 入门教程-冴羽](https://ts.yayujs.com/)
 
- ## 视频推荐
+## 书籍推荐
 
+- 暂无推荐
 
+## 视频推荐
 
- ## 项目推荐 
--  JavaScript 30days
+- [TypeScript-Mosh](https://www.youtube.com/watch?v=d56mG7DezGs&t=12s)
+
+## 项目推荐
+
+- [TS 类型体操 type-challenges](https://github.com/type-challenges/type-challenges)

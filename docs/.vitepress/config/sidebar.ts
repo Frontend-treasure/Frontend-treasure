@@ -48,9 +48,8 @@ const Sidebar = [
       { text: "TypeScript学前准备", link: "/note/TypeScript/prepare" },
       { text: "TypeScript学习小册", link: "/note/TypeScript/learn" },
       { text: "TypeScript面试题", link: "/note/TypeScript/TypeScript" },
-      { text: "TypeScript手撕代码", link: "/note/TypeScript/handwrite" },
-      { text: "TS类型体操", link: "/note/TypeScript/TS类型体操" },
-  ],
+      { text: "TypeScript类型体操", link: "/note/TypeScript/handwrite" },
+    ],
   },
   {
     text: "Vue",
@@ -68,32 +67,17 @@ const Sidebar = [
     collapsible: true,
     collapsed: true,
     items: [
-    { text: "React学前准备", link: "/note/React/prepare" },
-    { text: "React学习小册", link: "/note/React/learn" },
-    { text: "React面试题", link: "/note/React/React" },
-    { text: "React手撕代码", link: "/note/React/handwrite" },
-  ],
+      { text: "React学前准备", link: "/note/React/prepare" },
+      { text: "React学习小册", link: "/note/React/learn" },
+      { text: "React面试题", link: "/note/React/React" },
+      { text: "React手撕代码", link: "/note/React/handwrite" },
+    ],
   },
   {
     text: "Vite",
     collapsible: true,
     collapsed: true,
     items: [{ text: "Vite使用和配置", link: "/note/Vite/Vite" }],
-  },
-  {
-    text: "Git",
-    collapsible: true,
-    collapsed: true,
-    items: [
-      { text: "Git-Commit规范", link: "/note/Git/Commit" },
-      { text: "Git常用命令", link: "/note/Git/Git" },
-    ],
-  },
-  {
-    text: "Linux",
-    collapsible: true,
-    collapsed: true,
-    items: [{ text: "Linux", link: "/note/Linux/常用命令大全" }],
   },
   {
     text: "Nest.js",
@@ -106,19 +90,31 @@ const Sidebar = [
       { text: "Nest手撕代码", link: "/note/Nestjs/handwrite" },
     ],
   },
-  // {
-  //   text: "Docker",
-  //   collapsible: true,
-  //   collapsed: true,
-  //   items: [
-  //     { text: "Docker安装和使用", link: "/note/Docker/Docker安装和使用" },
-  //     { text: "容器和镜像", link: "/note/Docker/容器和镜像" },
-  //     { text: "DockerFile编写", link: "/note/Docker/DockerFile编写" },
-  //     { text: "DockerCompose", link: "/note/Docker/DockerCompose" },
-  //     { text: "Docker集群", link: "/note/Docker/Docker集群" },
-  //   ],
-  // },
-
+  {
+    text: "Git",
+    collapsible: true,
+    collapsed: true,
+    items: [
+      { text: "Git-Commit规范", link: "/note/Git/Commit" },
+      { text: "Git常用命令", link: "/note/Git/Git" },
+      { text: "Git面试题", link: "/note/Git/Git-interview" },
+    ],
+  },
+  {
+    text: "Linux",
+    collapsible: true,
+    collapsed: true,
+    items: [{ text: "Linux", link: "/note/Linux/Linux" }],
+  },
+  {
+    text: "Docker",
+    collapsible: true,
+    collapsed: true,
+    items: [
+      { text: "Docker安装和使用", link: "/note/Docker/Docker" },
+      { text: "Docker Compose", link: "/note/Docker/DockerCompose" },
+    ],
+  },
   {
     text: "计算机网络",
     collapsible: true,
