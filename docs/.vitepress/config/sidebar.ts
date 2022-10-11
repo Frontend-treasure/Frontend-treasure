@@ -48,9 +48,8 @@ const Sidebar = [
       { text: "TypeScript学前准备", link: "/note/TypeScript/prepare" },
       { text: "TypeScript学习小册", link: "/note/TypeScript/learn" },
       { text: "TypeScript面试题", link: "/note/TypeScript/TypeScript" },
-      { text: "TypeScript手撕代码", link: "/note/TypeScript/handwrite" },
-      { text: "TS类型体操", link: "/note/TypeScript/TS类型体操" },
-  ],
+      { text: "TypeScript类型体操", link: "/note/TypeScript/handwrite" },
+    ],
   },
   {
     text: "Vue",
@@ -68,11 +67,11 @@ const Sidebar = [
     collapsible: true,
     collapsed: true,
     items: [
-    { text: "React学前准备", link: "/note/React/prepare" },
-    { text: "React学习小册", link: "/note/React/learn" },
-    { text: "React面试题", link: "/note/React/React" },
-    { text: "React手撕代码", link: "/note/React/handwrite" },
-  ],
+      { text: "React学前准备", link: "/note/React/prepare" },
+      { text: "React学习小册", link: "/note/React/learn" },
+      { text: "React面试题", link: "/note/React/React" },
+      { text: "React手撕代码", link: "/note/React/handwrite" },
+    ],
   },
   {
     text: "Vite",

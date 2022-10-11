@@ -1,6 +1,12 @@
-# Vue 面试题
+# Vue 面试题 (包含 2,3)
 
-# Vue2 面试题
+---
+
+:::tip Vue2 面试题
+:::
+
+:::tip Vue3 面试题
+:::
 
 ## Vue 目录结构
 
@@ -326,13 +332,13 @@ const arrayProto = Array.prototype;
 //基于数组原型对象创建1个新的对象
 export const arrayMethods = Object.create(arrayProto);
 const methodsToPatch = [
-  'push',
-  'pop',
-  'shift',
-  'unshift',
-  'splice',
-  'sort',
-  'reverse',
+  "push",
+  "pop",
+  "shift",
+  "unshift",
+  "splice",
+  "sort",
+  "reverse",
 ];
 methodsToPatch.forEach(function (method) {
   const original = arrayProto[method];
@@ -343,11 +349,11 @@ methodsToPatch.forEach(function (method) {
     const ob = this.__ob__;
     let inserted;
     switch (method) {
-      case 'push':
-      case 'unshift':
+      case "push":
+      case "unshift":
         inserted = args;
         break;
-      case 'splice':
+      case "splice":
         inserted = args.slice(2);
         break;
     }
@@ -391,7 +397,7 @@ class Watcher {
     this.name = name;
   }
   update() {
-    console.log('更新');
+    console.log("更新");
   }
 }
 ```
@@ -712,10 +718,10 @@ tip SEO（Search Engine Optimization）：搜索引擎优化是一种利用搜
 - 网站流量：访问你的网站的人越多，排名也会越靠前
 - 竞价排名，国内百度
 
-[//]: # '## 如何给axios携带添加请求头'
-[//]: # '对于**loader**，它是一个转换器，将A文件进行编译形成B文件，这里操作的是文件，比如将A.scss转换为A.css，单纯的文件转换过程'
+[//]: # "## 如何给axios携带添加请求头"
+[//]: # "对于**loader**，它是一个转换器，将A文件进行编译形成B文件，这里操作的是文件，比如将A.scss转换为A.css，单纯的文件转换过程"
 [//]: #
-[//]: # '**plugin**是一个扩展器，它丰富了webpack本身，针对是loader结束后，webpack打包的整个过程，它并不直接操作文件，而是基于事件机制工作，会监听webpack打包过程中的某些节点，执行广泛的任务'
+[//]: # "**plugin**是一个扩展器，它丰富了webpack本身，针对是loader结束后，webpack打包的整个过程，它并不直接操作文件，而是基于事件机制工作，会监听webpack打包过程中的某些节点，执行广泛的任务"
 
 # Vue3 面试题
 
