@@ -11,12 +11,14 @@
 
 ## Vue 周边生态
 
+- [Axios](https://axios-http.com/docs/intro)
 - [Vue-Router](https://router.vuejs.org/)
 - [Pinia](https://pinia.vuejs.org/)
 - [Vite](https://vitejs.dev/)
 - [Vitest](https://vitest.dev/)
 - [VitePress](https://vitepress.vuejs.org/)
 - [VueUse](https://vueuse.org/)
+- [Nuxt.js](https://nuxtjs.org/)
 
 ## 书籍推荐
 
