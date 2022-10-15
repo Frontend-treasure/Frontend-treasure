@@ -25,13 +25,13 @@
 </strong>
 </div>
 
-## ✨Details
+## ✨ 详情
 
-> **This site organizes notes on front-end development and interviews**
+> **这个网站整理了前端开发和面试相关的笔记**
 
-**The Frontend-treasure website provides programming knowledge from the basics to advanced Web programming for beginners, and all contents on the site are all free!**
+**前端宝藏之站为初学者提供从基础到高级的 web 前端编程知识，而且网站上的所有内容全部免费开源!**
 
-## 🤖Run
+## 🤖 运行
 
 ```bash
 # clone the repo
@@ -51,14 +51,14 @@ yarn docs:serve
 
 ```
 
-## 🎉Feature
+## 🎉 功能
 
 - [x] ☀️Dark Mode
 - [x] 🐼CI/CD
 - [x] 🔍Search
 - [x] 🤖Mock Api
 
-> to be continue....
+> 待做....
 
 - [ ] 🤖interactive example
 - [ ] 🌏i18n
@@ -66,11 +66,11 @@ yarn docs:serve
 - [ ] ✉️Email
 - [ ] ...etc
 
-## 🗒️License
+## 🗒️ 协议
 
 [![Licence](https://img.shields.io/github/license/Ileriayo/markdown-badges?style=for-the-badge)](./LICENSE)
 
-## Contributors ✨
+## 贡献者 ✨
 
 <!-- readme: collaborators,contributors -start -->
 <!-- readme: collaborators,contributors -end -->
