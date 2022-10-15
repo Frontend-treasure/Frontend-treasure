@@ -1,11 +1,12 @@
 <h1 align="center">Frontend-treasure</h1>
-<!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors-)
-<!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 <p align="center">
+
   <a href="https://github.com/misitebao/yakia/blob/main/LICENSE">
     <img alt="GitHub" src="https://img.shields.io/github/license/misitebao/yakia"/>
+  </a>
+  <a href="https://github.com/misitebao/yakia/blob/main/LICENSE">
+    <img alt="#contributors-" src="https://img.shields.io/badge/all_contributors-2-orange.svg?style=flat-square"/>
   </a>
   <img height="20" src="https://img.shields.io/badge/vuejs-%2335495e.svg?style=for-the-badge&logo=vuedotjs&logoColor=%234FC08D" alt="VueJs" />
   <img height="20" src="https://img.shields.io/badge/vite-%23646CFF.svg?style=for-the-badge&logo=vite&logoColor=white" alt="Vite" />
@@ -73,7 +74,7 @@ yarn docs:serve
 
 [![Licence](https://img.shields.io/github/license/Ileriayo/markdown-badges?style=for-the-badge)](./LICENSE)
 
-## Contributors
+## ✨Contributors
 
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
 <!-- prettier-ignore-start -->
