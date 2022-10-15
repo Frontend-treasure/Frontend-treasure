@@ -1,0 +1,27 @@
+{
+  "files": [
+    "README.md"
+  ],
+  "imageSize": 100,
+  "commit": false,
+  "commitConvention": "angular",
+  "contributors": [
+    {
+      "login": "laylayfor",
+      "name": "layfor",
+      "avatar_url": "https://avatars.githubusercontent.com/u/66812728?v=4",
+      "profile": "https://github.com/laylayfor",
+      "contributions": [
+        "infra",
+        "test",
+        "code"
+      ]
+    }
+  ],
+  "contributorsPerLine": 7,
+  "skipCi": true,
+  "repoType": "github",
+  "repoHost": "https://github.com",
+  "projectName": "Frontend-treasure",
+  "projectOwner": "Frontend-treasure"
+}
