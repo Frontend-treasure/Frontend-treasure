@@ -1,11 +1,6 @@
 # Vue 面试题 (包含 2,3)
 
----
-
 :::tip Vue2 面试题
-:::
-
-:::tip Vue3 面试题
 :::
 
 ## Vue 目录结构
@@ -68,7 +63,7 @@ warning 生命周期中比较重要的钩子
 
   - 销毁前需要清除定时器清除缓存,防止内存泄漏
 
-- 还有 Keep-alive 带来的三个额外钩子 1.activated 2.deactivated
+- 还有 **Keep-alive** 带来的三个额外钩子 1.`activated` 2.`deactivated`
 - 如果采用 Nuxt.js 做 SSR,`beforeMounted()`之后的钩子都不会被调用,同时在`beforeCreate()`之前拓展了许多服务器端执行的钩子.
 
 ## 为什么说 Vue 是单向数据流？
@@ -95,7 +90,9 @@ data 使用对象
 
 ## v-if 和 v-show 有什么区别？
 
-## tip v-if 是销毁代码，v-show  则是将代码注释掉
+:::tip v-if 是销毁代码，v-show  则是将代码注释掉
+
+:::
 
 > **两者都是控制元素显示和隐藏，v-if 是控制元素本身的增加或者删除，而 v-show 控制的是元素的 CSS 属性(display:none)**。 换种问法:为什么在$refs 中拿不到 v-if 的,能拿到 v-show 的
 
@@ -138,7 +135,9 @@ data 使用对象
 
 ## keep-alive 内置组件有什么作用?
 
-keep-alive
+:::warning [源码: src/core/components/keep-alive.ts](https://github.com/vuejs/vue/blob/main/src/core/components/keep-alive.ts)
+
+:::
 
 - **当进行组件的切换的时候,如果需要保持原组件的状态,则可以使用`keep-alive`包裹要缓存的组件**
 - **keep-alive 有两个独有的生命周期钩子 1.actived 2.deactivated**
@@ -157,7 +156,9 @@ keep-alive
 
 > 一**次完整的 DOM 更新称为 Tick，nextTick 也就是在下次 DOM 更新循环 j 结束之后执行延迟回调，常用于修改数据后获取更新后的 DOM**。Tick 是一次数据渲染的周期，nextTick 就是指渲染后执行
 
-## warning 源码: vue/src/core/util/next-tick.js
+:::warning [源码: vue/src/core/util/next-tick.js](https://github.com/vuejs/vue/blob/main/src/core/util/next-tick.ts)
+
+:::
 
 $nextTick 其实就是运用异步锁的的概念，保证同一时刻任务队列只有一个 flushCallbacks，当 pending 为 false 的时候，表示浏览器任务队列中没有 flushCallbacks 函数，当 pending 为 true 的时候，表示浏览器任务队列中已经放入 flushCallbacks，待执行 flushCallbacks 函数时，pending 为被再次置位 false，表示下一个 flushCallbacks 可进入任务队列，环境能力检测选择可选中效率最高的(宏任务/微任务)进行包装执行，保证是在同步代码都执行完成后，再去执行修改 DOM 等操作，flushcallbacks 先拷贝再清空，为了防止 nextTick 嵌套 mextTick 导致循环不结束
 
@@ -247,6 +248,10 @@ V 浏览器只能解析 html 文档,Vue 模板显然需要通过编译才能在�
 
 ## Vue 的响应式原理
 
+:::warning [ 源码: src/core/observer](https://github.com/vuejs/vue/tree/main/src/core/observer)
+
+:::
+
 三个步骤
 
 - 数据劫持
@@ -260,8 +265,6 @@ V 浏览器只能解析 html 文档,Vue 模板显然需要通过编译才能在�
 - 当遍历数组的时候，用数组增强的方式，覆盖原属性上默认的数组方法，保证在新增或删除数据时，通过 dep 通知所有的 watcher 进行更新
 
 - 运用观察者模式或者发布-订阅模式，当一个对象被修改时会自动通知依赖它的对象
-
-details 响应式源码
 
 > 响应式更新对象的源码下图
 
@@ -723,9 +726,11 @@ tip SEO（Search Engine Optimization）：搜索引擎优化是一种利用搜
 [//]: #
 [//]: # "**plugin**是一个扩展器，它丰富了webpack本身，针对是loader结束后，webpack打包的整个过程，它并不直接操作文件，而是基于事件机制工作，会监听webpack打包过程中的某些节点，执行广泛的任务"
 
-# Vue3 面试题
+---
 
-[[toc]]
+:::tip Vue3 面试题
+
+:::
 
 ## CompositionAPI 和 OptionsApi 的区别?
 
@@ -770,56 +775,3 @@ CompositionAPI
 
 - 就是组件还没完全加载完成的过渡动画展示组件
 - 可以做 加载动画 loading，骨架屏 skeleton 这些
-
-# TS 面试题
-
-tip 现在还在学习中 记录下学习资源
-
-- [TypeScript 官方文档](https://www.typescriptlang.org/)
-- [TypeScript 刷题](https://github.com/type-challenges/type-challenges/blob/master/README.zh-CN.md)
-
-## TypeScript 数据类型有哪些?
-
-- js 有的都有，多了 any、unknown、void、never、联合类型、泛型等
-
-## TS 类型推导
-
-- TS 会根据声明时第一次赋值的类型自动推导变量类型
-- 不赋值的话默认 any 类型
-
-## TS 类型断言(as)
-
-- 你很确定某个联合类型的类型为某个类型时候就可以用 `as` 指定类型
-
-## 枚举类型?应用场景?
-
-- enum
-- 类似性别(男、女、未知)
-
-## 类型别名(type)和接口(interface)的区别
-
-接口和类型别名: 两者都可以用来描述对象或函数的类型。与接口不同，类型别名还可以用于其他类型，如基本类型（原始值）、联合类型、元组。
-
-1. 类型别名可以为任何类型引入名称。例如基本类型，联合类型等
-1. 类型别名不支持继承
-1. 类型别名不会创建一个真正的名字
-1. 类型别名无法被实现(implements)，而接口可以被派生类实现
-1. 类型别名重名时编译器会抛出错误，接口重名时会产生合并
-
-## **const 和 readonly 的区别？**
-
-`const 和 readonly`: const 可以防止变量的值被修改，readonly 可以防止变量的属性被修改。`枚举和常`
-
-## 使用联合类型有什么注意的
-
-warning 不确定一个联合类型的变量到底是哪个类型的时候,我们只能访问此联合类型的所有类型里共有的属性或方法
-
-## 装饰器的理解,应用场景?
-
-- decortor
-
-## 泛型的运用
-
-泛型用来来创建可重用的组件，一个组件可以支持多种类型的数据。这样用户就可以以自己的数据类型来使用组件
-
-- 函数的输出类型根据参数的输入类型去推断

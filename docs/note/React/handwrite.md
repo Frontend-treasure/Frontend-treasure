@@ -1,10 +1,22 @@
 # React 代码片段
 
+:::tip 推荐扩展
+
+- [ES7 React/Redux/GraphQL/React-Native snippets](https://marketplace.visualstudio.com/items?itemName=rodrigovallades.es7-react-js-snippets)
+- [Error Lens](https://marketplace.visualstudio.com/items?itemName=usernamehw.errorlens)
+
+:::
+
 ## React 代码组织
 
-:::tip 组件结构
-组件结构建议分为四大块（有顺序）：状态 Hook 调用（useState）、副作用 Hook 调用（useEffect）、方法定义、渲染逻辑。
-:::
+:::info 组件结构
+组件结构建议分为四大块（有顺序）：
+
+1. 状态 Hook 调用（useState）
+2. 副作用 Hook 调用（useEffect）
+3. 方法定义
+4. 渲染逻辑。
+   :::
 
 ```jsx
 function Component({ children }) {
