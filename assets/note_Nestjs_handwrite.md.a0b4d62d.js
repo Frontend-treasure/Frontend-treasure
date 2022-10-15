@@ -1,0 +1,1 @@
+import{_ as e,o as t,c as a}from"./app.c011f08c.js";const m=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"note/Nestjs/handwrite.md"}'),r={name:"note/Nestjs/handwrite.md"};function n(s,o,c,d,i,p){return t(),a("div")}const f=e(r,[["render",n]]);export{m as __pageData,f as default};

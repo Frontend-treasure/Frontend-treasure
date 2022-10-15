@@ -1,0 +1,1 @@
+import{_ as e,o as a,c as t}from"./app.c011f08c.js";const m=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"resource/Navagation.md"}'),o={name:"resource/Navagation.md"};function r(n,s,c,i,p,_){return a(),t("div")}const f=e(o,[["render",r]]);export{m as __pageData,f as default};

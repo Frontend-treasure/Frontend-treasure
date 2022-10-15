@@ -1,0 +1,1 @@
+import{_ as e,o as t,c as a,a as r}from"./app.c011f08c.js";const m=JSON.parse('{"title":"Vue \u4EE3\u7801\u7247\u6BB5","description":"","frontmatter":{},"headers":[],"relativePath":"note/Vue/handwrite.md"}'),o={name:"note/Vue/handwrite.md"},s=r("",2),i=[s];function l(n,c,d,_,p,u){return t(),a("div",null,i)}const f=e(o,[["render",l]]);export{m as __pageData,f as default};

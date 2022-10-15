@@ -1,0 +1,1 @@
+import{_ as e,o as t,c as s}from"./app.c011f08c.js";const m=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"note/Nestjs/Nestjs.md"}'),a={name:"note/Nestjs/Nestjs.md"};function o(r,n,c,p,_,d){return t(),s("div")}const f=e(a,[["render",o]]);export{m as __pageData,f as default};
