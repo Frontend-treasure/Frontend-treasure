@@ -15,7 +15,9 @@
 ## 视频推荐
 
 - [TypeScript-Mosh](https://www.youtube.com/watch?v=d56mG7DezGs&t=12s)
+- [react-typescript-cheatsheet](https://www.youtube.com/watch?v=PL1NUl7fQ2I&list=PLG-Mk4wQm9_LyKE5EwoZz2_GGXR-zJ5Ml)
 
 ## 项目推荐
 
 - [TS 类型体操 type-challenges](https://github.com/type-challenges/type-challenges)
+- [react-typescript-cheatsheet](https://react-typescript-cheatsheet.netlify.app/docs/basic/setup/)
