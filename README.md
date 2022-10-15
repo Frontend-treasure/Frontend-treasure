@@ -81,6 +81,7 @@ yarn docs:serve
 <table>
   <tbody>
     <tr>
+      <td align="center"><a href="https://github.com/laylayfor"><img src="https://avatars.githubusercontent.com/u/66812728?v=4?s=100" width="100px;" alt="layfor"/><br /><sub><b>layfor</b></sub></a><br /><a href="#infra-laylayfor" title="Infrastructure (Hosting, Build-Tools, etc)">🚇</a> <a href="https://github.com/Frontend-treasure/Frontend-treasure/commits?author=laylayfor" title="Tests">⚠️</a> <a href="https://github.com/Frontend-treasure/Frontend-treasure/commits?author=laylayfor" title="Code">💻</a> <a href="#blog-laylayfor" title="Blogposts">📝</a></td>
       <td align="center"><a href="http://www.lavard.cn"><img src="https://avatars.githubusercontent.com/u/48318812?v=4?s=100" width="100px;" alt="lavard"/><br /><sub><b>lavard</b></sub></a><br /><a href="#design-lalalavard" title="Design">🎨</a> <a href="#infra-lalalavard" title="Infrastructure (Hosting, Build-Tools, etc)">🚇</a> <a href="https://github.com/Frontend-treasure/Frontend-treasure/commits?author=lalalavard" title="Tests">⚠️</a> <a href="https://github.com/Frontend-treasure/Frontend-treasure/commits?author=lalalavard" title="Code">💻</a></td>
     </tr>
   </tbody>
