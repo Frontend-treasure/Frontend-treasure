@@ -2,7 +2,7 @@ import NavBar from "./config/navbar";
 import SideBar from "./config/sidebar";
 
 export default {
-  head: [["link", { rel: "icon", href: "../../vite.svg" }]],
+  head: [["link", { rel: "icon", href: "../../svg/vite.svg" }]],
   base: "/",
   lang: "en-US",
   title: "前端宝藏之站",
@@ -10,7 +10,7 @@ export default {
 
   // Theme related configurations.
   themeConfig: {
-    logo: "../../vite.svg",
+    logo: "../../logo.svg",
     nav: NavBar,
     sidebar: SideBar,
     footer: {

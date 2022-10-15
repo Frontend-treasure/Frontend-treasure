@@ -1,6 +1,17 @@
 # 学前准备
 
-...待补充
+`Vue` 官方的定义是 `The Progressive JavaScript Framework` , 也就是**渐进式的 JavaScript 框架** , 作者为中国人**尤雨溪**在谷歌工作时业余时间开发的一款框架, 并受到广大开发者的喜爱, **Vue.js**也成为前端领域 star 数目最多的 项目!可见其影响力, 在国内 Vue 有着非常高的占有率, 且文档写得对新手非常友好, 推荐刚接触前端的同学们以 Vue 为第一门框架进行学习!
+
+| Framework    | Vue  | React |
+| ------------ | :--: | ----: |
+| start        | 199k |  196k |
+| commit       | 3508 | 15293 |
+| contributors | 345  | 1,584 |
+| used by      | 3.8m | 16.2m |
+
+如果你想了解 **Vue** 和 **React** 的差异对比, 推荐文章
+
+[2022 年前端框架趋势：React 与 Vue 深度对比](https://tehub.com/a/9EksnVdFhG)
 
 ## 文档推荐
 
