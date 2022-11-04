@@ -6,7 +6,8 @@
     >
       <div class="card">
         <div class="photo">
-          <img src="https://avatars.githubusercontent.com/u/48318812?v=4" />
+          <!-- <img src="https://avatars.githubusercontent.com/u/48318812?v=4" /> -->
+          <img src="../../logo.svg" />
         </div>
         <h1>lavard</h1>
         <h2>前端开发</h2>
