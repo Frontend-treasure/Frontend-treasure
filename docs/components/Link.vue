@@ -1,15 +1,15 @@
 <template>
   <section class="container">
     <a
-      href="https://www.bilibili.com/bangumi/play/ss36198/?spm_id_from=333.999.0.0"
+      href="https://www.lavard.cn/"
       target="_blank"
     >
       <div class="card">
         <div class="photo">
-          <img src="/animate/1.jpg" />
+          <img src="https://avatars.githubusercontent.com/u/48318812?v=4" />
         </div>
-        <h1>宫村</h1>
-        <h2>宫村伊澄</h2>
+        <h1>lavard</h1>
+        <h2>前端开发</h2>
       </div>
     </a>
     <a
@@ -18,34 +18,34 @@
     >
       <div class="card">
         <div class="photo">
-          <img src="/animate/2.jpg" />
+          <img src="https://avatars.githubusercontent.com/u/66812728?v=4" />
         </div>
-        <h1>堀</h1>
-        <h2>堀京子</h2>
+        <h1>layfor</h1>
+        <h2>前端开发</h2>
       </div>
     </a>
     <a
-      href="https://www.bilibili.com/bangumi/play/ss26274/?spm_id_from=333.999.0.0"
+      href="https://avatars.githubusercontent.com/u/43442630?v=4"
       target="_blank"
     >
       <div class="card">
         <div class="photo">
-          <img src="/animate/3.jpg" />
+          <img src="https://avatars.githubusercontent.com/u/43442630?v=4" />
         </div>
-        <h1>辉夜</h1>
-        <h2>四宫辉夜</h2>
+        <h1>Chorer</h1>
+        <h2>前端开发</h2>
       </div>
     </a>
     <a
-      href="https://www.bilibili.com/bangumi/play/ss21542?spm_id_from=333.337.0.0"
+      href="https://lzxjack.top/"
       target="_blank"
     >
       <div class="card">
         <div class="photo">
-          <img src="/animate/4.jpg" />
+          <img src="https://avatars.githubusercontent.com/u/70835990?v=4" />
         </div>
-        <h1>薇尔莉特</h1>
-        <h2>薇尔莉特·伊芙加登</h2>
+        <h1>飞鸟</h1>
+        <h2>前端开发</h2>
       </div>
     </a>
   </section>
